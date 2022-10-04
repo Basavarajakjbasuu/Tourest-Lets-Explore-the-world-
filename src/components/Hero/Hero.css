@@ -1,0 +1,50 @@
+/** @format */
+
+.section {
+	display: flex;
+	margin: 60px;
+}
+
+.heroContent {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+  margin-top: 4rem;
+}
+
+.sectionSubtitle {
+	font-family: var(--ff-comforter-brush);
+	color: var(--mikado-yellow);
+	font-size: 44px;
+}
+
+.heroTitle {
+	color: var(--oxford-blue);
+	font-size: 55px;
+	font-family: var(--ff-abril-fatface);
+	font-weight: var(--fw-500);
+	line-height: 1.2;
+	max-width: 11ch;
+	margin-bottom: 15px;
+}
+
+.heroText {
+  color: var(--spanish-gray);
+  font-size: 2rem;
+}
+
+.btn-group{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.btnPrimary {
+  border: 2px solid #029D9D;
+  color: #fff;
+}
+.heroBanner {
+	width: 100%;
+  height: 100%;
+}

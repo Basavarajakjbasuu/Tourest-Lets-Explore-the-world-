@@ -1,0 +1,130 @@
+/** @format */
+
+.app__header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.app__wrapper_info {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.app__subheading {
+	font-family: var(--ff-comforter-brush);
+	color: var(--mikado-yellow);
+	font-size: 44px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+
+.app__heading-h1 {
+	color: var(--oxford-blue);
+	font-size: 60px;
+	font-family: var(--ff-abril-fatface);
+	font-weight: var(--fw-500);
+	line-height: 1.2;
+	max-width: 11ch;
+	margin-bottom: 20px;
+}
+
+.app__subpara {
+	font-size: 18px;
+	color: var(--black-coral);
+	line-height: 1.7;
+	margin-bottom: 20px;
+}
+
+.app__button_wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.button-1 {
+	padding: 1rem 2.5rem;
+	width: max-content;
+	background: var(--viridian-green);
+	color: var(--white-1);
+	font-weight: 700;
+	border-radius: 5px;
+	border: 2px solid var(--viridian-green);
+	margin-right: 2rem;
+}
+
+.button-1:hover {
+	border: 2px solid var(--viridian-green);
+	background-color: var(--white-1);
+	color: var(--viridian-green);
+}
+
+.button-2 {
+	padding: 1rem 2.5rem;
+	border: 2px solid var(--black-coral);
+	border-radius: 5px;
+	font-weight: 700;
+	color: var(--black-coral);
+}
+
+.button-2:hover {
+	color: var(--viridian-green);
+	border: 2px solid var(--viridian-green);
+}
+
+.app__wrapper_img {
+	flex: 1;
+	padding: 0 2rem;
+}
+
+.app__wrapper_img img {
+	width: 100%;
+	height: auto;
+	margin-top: 7rem;
+}
+
+@media screen and (max-width: 750px) {
+	.app__subheading {
+		font-size: 34px;
+	}
+
+	.app__heading-h1 {
+		font-size: 50px;
+	}
+
+	.app__subpara {
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.button-1,
+	.button-2 {
+		padding: 0.5rem 1rem;
+		font-weight: 500;
+	}
+
+	.app__wrapper_info {
+		margin-top: 10rem;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	.app__header {
+		flex-direction: column;
+	}
+
+	.app__wrapper_info {
+		align-items: center;
+		text-align: center;
+		margin-top: 10rem;
+	}
+	
+	.app__subpara {
+		max-width: 370px;
+	}
+
+	.app__wrapper_img img {
+		margin-top: 4rem;
+	}
+}
