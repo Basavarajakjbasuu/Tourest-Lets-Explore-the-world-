@@ -28,6 +28,7 @@ const AboutUs = () => {
 						</div>
 					</div>
 				))}
+				<button className="Booking__Button">Booking Now</button>
 			</div>
 			<div className="app__aboutUs-image ">
 				<img src={images.aboutBanner} alt="about Banner Img" />

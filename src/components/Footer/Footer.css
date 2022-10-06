@@ -78,10 +78,11 @@
 	display: inline-block;
 	border-bottom: 2px solid var(--light-gray);
 	color: var(--light-gray);
+  transition: var(--transition-1);
 }
 
 .app__footer-copyRights a:hover {
-	border: none;
+	border-bottom: 2px solid var(--oxford-blue);
 }
 
 .socialMedia-link {
@@ -89,7 +90,9 @@
 	color: var(--light-gray);
 	background: var(--independence);
 	border-radius: 50%;
-	padding: 1rem;
+	width: 4rem;
+  height: 4rem;
+  padding: 1rem;
 	margin-left: 1rem;
 	align-items: center;
 	justify-content: center;

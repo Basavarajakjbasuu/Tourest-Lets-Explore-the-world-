@@ -69,6 +69,21 @@
 	line-height: 1.7;
 	letter-spacing: normal;
 }
+
+.Booking__Button {
+	padding: 1.2rem 2rem;
+	background-color: var(--viridian-green);
+	color: var(--white-2);
+	font-weight: 500;
+	border-radius: 6px;
+	border: 2px solid var(--viridian-green);
+	transition: var(--transition-2);
+}
+
+.Booking__Button:hover {
+	background: var(--white-2);
+	color: var(--viridian-green);
+}
 .app__aboutUs-image {
 	flex: 1.5;
 }
