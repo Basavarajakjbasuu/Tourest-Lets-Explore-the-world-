@@ -1,0 +1,125 @@
+/** @format */
+
+.app__footer-wrapper {
+	background: url(../../images/footer-bg.png) var(--oxford-blue) no-repeat;
+}
+.app__footer-container {
+	display: flex;
+	justify-content: space-between;
+	color: var(--light-gray);
+}
+
+.app__footer-topDestinations h4,
+.app__footer-categories h4,
+.app__footer-quickLinks h4,
+.app__footer-newsLetter h4 {
+	font-size: 2.3rem;
+	padding-bottom: 1rem;
+	color: var(--white-2);
+}
+
+.app__footer-topDestinations p,
+.app__footer-categories p,
+.app__footer-quickLinks p,
+.app__footer-newsLetter p {
+	margin: 1rem;
+	font-size: 1.7rem;
+	transition: var(--transition-2);
+}
+
+.app__footer-topDestinations p:hover,
+.app__footer-categories p:hover,
+.app__footer-quickLinks p:hover,
+.app__footer-newsLetter p:hover {
+	color: var(--white-1);
+	cursor: pointer;
+}
+
+.app__footer-newsLetter p {
+	padding-bottom: 2rem;
+}
+
+.app__footer-newsLetter input {
+	padding: 1.5rem 1rem;
+	background-color: var(--white-1);
+	border-radius: 5px;
+}
+
+.app__footer-newsLetter-form {
+	position: relative;
+}
+.app__footer-newsLetter button {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: var(--viridian-green);
+	color: var(--white-2);
+}
+
+.app__footer-bottom {
+	margin-top: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: var(--light-gray);
+}
+
+.app__footer-bottom > h1 > a {
+	color: var(--light-gray);
+	font-size: 3.5rem;
+	transition: var(--transition-2);
+}
+
+.app__footer-bottom > h1 > a:hover {
+	color: var(--viridian-green);
+}
+.app__footer-copyRights a {
+	display: inline-block;
+	border-bottom: 2px solid var(--light-gray);
+	color: var(--light-gray);
+}
+
+.app__footer-copyRights a:hover {
+	border: none;
+}
+
+.socialMedia-link {
+	display: inline-block;
+	color: var(--light-gray);
+	background: var(--independence);
+	border-radius: 50%;
+	padding: 1rem;
+	margin-left: 1rem;
+	align-items: center;
+	justify-content: center;
+  transition: var(--transition-2);
+}
+
+
+.socialMedia-link svg {
+	color: var(--white-1);
+	font-size: 2rem;
+	font-weight: 900;
+}
+
+.socialMedia-link:hover {
+background: var(--viridian-green);
+}
+
+@media screen and (max-width: 750px) {
+	.app__footer-container {
+		margin: 2rem 0;
+		flex-direction: column;
+	}
+
+	.app__footer-bottom {
+		flex-direction: column;
+		gap: 3rem;
+		padding-bottom: 2rem;
+	}
+
+	.socialMedia-link {
+		text-align: center;
+	}
+}

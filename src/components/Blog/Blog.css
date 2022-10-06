@@ -1,0 +1,26 @@
+/** @format */
+
+.card-wrap {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	gap: 2px;
+	font-weight: 600;
+	color: var(--viridian-green);
+	transition: var(--transition-2);
+}
+
+.card-wrap:is(:hover, :focus) {
+	color: var(--eerie-black);
+	cursor: pointer;
+}
+.blog-desc {
+	font-weight: 700;
+	font-size: 1.7rem;
+	transition: var(--transition-2);
+}
+
+.blog-desc:is(:hover, :focus) {
+	color: var(--viridian-green);
+	cursor: pointer;
+}

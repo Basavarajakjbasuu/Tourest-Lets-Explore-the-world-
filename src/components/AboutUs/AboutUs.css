@@ -1,0 +1,85 @@
+/** @format */
+
+.app__aboutUs-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.app__aboutUs-content {
+	flex: 1;
+}
+
+.app__aboutUs-subTitle {
+	color: var(--mikado-yellow);
+	font-family: var(--ff-comforter-brush);
+	font-size: 5rem;
+	text-align: start;
+	font-weight: 500;
+}
+
+.app__aboutUs-title {
+	font-family: var(--ff-abril-fatface);
+	text-align: start;
+	font-size: 4rem;
+	margin-bottom: 3rem;
+	font-weight: 500;
+	color: var(--jet);
+}
+
+.app__aboutUs-descPara {
+	font-size: 1.7rem;
+	color: var(--battleship-gray);
+	line-height: 1.7;
+	letter-spacing: normal;
+	margin-bottom: 30px;
+}
+
+.app__aboutUs-aboutItem {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+  margin-bottom: 2rem;
+}
+
+.app_aboutUs-icon {
+	background: var(--viridian-green);
+	width: 7rem;
+	padding: 1.6rem;
+	border-radius: 50%;
+	margin-right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mySvg {
+	filter: invert(1);
+}
+
+.app__about-content h2 {
+	color: var(--granite-gray);
+  font-weight: var(--fw-600);
+  margin-bottom: 5px;
+}
+
+.app__about-content p {
+  font-size: 1.7rem;
+	color: var(--battleship-gray);
+	line-height: 1.7;
+	letter-spacing: normal;
+}
+.app__aboutUs-image {
+	flex: 1.5;
+}
+
+.app__aboutUs-image img {
+	padding: 2rem;
+	width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .app__aboutUs-container {
+    flex-direction: column;
+  }
+}

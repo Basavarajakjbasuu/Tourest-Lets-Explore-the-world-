@@ -1,0 +1,42 @@
+.app__adminCard-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.app__adminCard-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profileImg {
+  width: 24rem;
+  height: 4rem;
+  margin-right: 1.4rem;
+  cursor: pointer;
+}
+
+.app__adminCard-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.app__adminCard-details h4 {
+  font-size: 1.3rem;
+  color: var(--black-coral);
+}
+
+.app__adminCard-details p {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: var(--spanish-gray);
+}
+
+.app__adminCard-time {
+  font-size: 1.4rem;
+  color: var(--spanish-gray);
+}

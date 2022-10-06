@@ -1,8 +1,6 @@
 import './App.css'
 
-import Navbar from './components/Navbar/Navbar'
-import Destination from './container/Destination/Destination'
-import Header from './container/Header/Header'
+import { Navbar, Header, Destination, PopularToure, AboutUs, Blog, Footer } from './components/index'
 
 const App = () => {
   return (
@@ -10,6 +8,10 @@ const App = () => {
       <Navbar />
       <Header />
       <Destination />
+      <PopularToure />
+      <AboutUs />
+      <Blog />
+      <Footer />
     </div>
   )
 }
